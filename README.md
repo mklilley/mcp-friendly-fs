@@ -68,14 +68,6 @@ cd mcp-friendly-fs
 npm install
 ```
 
-## Running the server manually (sanity check)
-
-You can run the server directly to confirm it starts:
-
-```bash
-node server.mjs --allowed /Users/you/Desktop /Users/you/Downloads
-```
-
 ## Claude Desktop configuration
 
 Edit Claude Desktop’s config:
