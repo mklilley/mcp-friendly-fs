@@ -1,0 +1,15 @@
+{
+  "name": "mcp-friendly-fs",
+  "version": "1.0.0",
+  "description": "Filesystem MCP server for Claude Desktop with allowed roots",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs --allowed /Users/matt/Desktop /Users/matt/Downloads"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "fs-extra": "^11.2.0",
+    "zod": "^4.0.0"
+  }
+}
