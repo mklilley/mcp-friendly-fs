@@ -85,7 +85,7 @@ Add an entry like:
     "friendly-fs": {
       "command": "node",
       "args": [
-        "/Users/you/Documents/GitHub/mcp-friendly-fs/server.mjs",
+        "/path/to/the/repo/server.mjs",
         "--allowed",
         "/Users/matt/Desktop",
         "/Users/matt/Downloads"
