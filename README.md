@@ -49,6 +49,8 @@ rm -rf /Users/matt/Desktop/Screenshots
 
 These will fail (and sometimes Claude invents sandbox paths like `/home/claude/Desktop`). This server prevents that by giving Claude proper, explicit filesystem tools.
 
+Other similar tools exist (see [this tutorial](https://modelcontextprotocol.io/docs/develop/connect-local-servers#installing-the-filesystem-server)), but Claude wasn't able to use the tool properly.
+
 ---
 
 ## Requirements
